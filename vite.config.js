@@ -17,6 +17,6 @@ export default defineConfig({
         secure: true,      
         ws: true,
       }
-    
+     }
     }
 })
