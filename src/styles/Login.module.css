@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    height: 100vh;
+    min-height: fit-content;
+}
+
+.imageContainer {
+    width : 61.8% ; 
+    height: 100%;
+}
+
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.textContainer {
+    width : 38.2%;
+    height:100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+    justify-content: space-evenly;
+}
+
+.buttonContainer {
+    position: relative;
+}
+
+.buttonContainer div{
+    position: absolute;
+    top: -2rem;
+    color: red;
+}
+
+.signUp {
+    color: green;
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .imageContainer{
+        display: none;
+    }
+    .textContainer {
+        width : 100%;
+    }
+    
+}

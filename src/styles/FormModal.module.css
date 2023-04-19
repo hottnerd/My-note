@@ -1,0 +1,14 @@
+.formContainer {
+    height: fit-content;
+    width: 100%;
+}
+
+.formContainer h1{
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.errorMessage {
+    color: red;
+    margin-bottom: 1rem;
+}

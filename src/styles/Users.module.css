@@ -1,0 +1,11 @@
+.bodyContainer{
+    width: 100vw;
+    min-width: 450px;
+    height: calc(100vh - 4rem);
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

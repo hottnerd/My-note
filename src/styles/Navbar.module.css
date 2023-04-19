@@ -1,0 +1,29 @@
+h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height:4rem;
+    width: 100vw;
+    min-width: 450px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 248, 200);
+    border-bottom: 1px solid grey;
+}
+
+.right{
+    margin-right: 3rem;
+}
+
+.container h1 {
+    margin-left: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

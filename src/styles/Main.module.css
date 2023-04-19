@@ -1,0 +1,15 @@
+.bodyContainer{
+    display: grid;
+    width: 100vw;
+    min-width: 450px;
+    min-height: calc(100vh - 4rem);
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+    padding: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+    gap: 3rem;
+    justify-items: center;
+
+}
+
+

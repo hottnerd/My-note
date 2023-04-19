@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+    min-width: fit-content;
+    height: 100vh;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid 1px;
+    width:450px;
+    padding: 50px;
+    background-color: white;
+}
+
+.container h1 {
+    align-self: center;
+}
+
+.errorMessage{
+    color: red;
+}
