@@ -12,7 +12,7 @@ export default defineConfig({
   server: {
        proxy:{
           "^/api":{
-        target: API_BASE_URL,
+        target: "https://my-note-api-u30q.onrender.com",
         changeOrigin: true,
         secure: true,      
         ws: true,
