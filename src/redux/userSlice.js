@@ -13,7 +13,6 @@ export const getUserData = createAsyncThunk("user/getUserData", async () => {
         const response = await axios({
           method: 'get',
           url: `${baseUrl}/user`,
-          data: credentials,
           withCredentials: true
         });
         return response.data;    
