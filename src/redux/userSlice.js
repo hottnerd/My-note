@@ -10,7 +10,11 @@ const initialState = {
 const baseUrl = import.meta.env.VITE_REACT_API_URL;
 
 export const getUserData = createAsyncThunk("user/getUserData", async () => {
-        const response = await axios.get(`${baseUrl}/user`);
+        const response = axios({
+          method: 'get',
+          url: `${baseUrl}/user`,
+          withCredentials: true
+        });
         return response.data;    
 });
 
