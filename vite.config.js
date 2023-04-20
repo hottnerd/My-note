@@ -11,6 +11,7 @@ export default defineConfig({
         target: "https://my-note-api-u30q.onrender.com",
         secure: true,  
         ws: true,
+        changeOrigin : true
       }
     
     }
