@@ -17,11 +17,11 @@ function App() {
   
   return (
     <Routes>   
-        <Route path="/" element={loggedIn ? <Main/> : <Navigate to="/login"/>}/>
         <Route path="/login" element={loggedIn ? <Navigate to="/"/> : <Login/>}/>
-        <Route path="/register" element={loggedIn ? <Navigate to="/"/> : <Register/>}/>
+        <Route path="/register" element={loggedIn ? <Navigate to="/"/> : <Register/>}/>         
         <Route path="/users" element={(!failed) ? <Users/> : <Navigate to="/"/>}/>
-        <Route path="/*" element={<Navigate to="/"/>}/>
+        <Route path="/" element={loggedIn ? <Main/> : <Navigate to="/login"/>}/>
+        <Route path="*" element={<Navigate to="/"/>}/>       
     </Routes>
     
 
